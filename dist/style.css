@@ -194,7 +194,6 @@ main {
     flex-basis: calc(20% - 10px); /* 每行 4 個方框，减去间距的一半 */
     box-sizing: border-box;
   }
-  
   .profile-img {
     width: 100%;
     object-fit: cover;
