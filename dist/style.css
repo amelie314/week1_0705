@@ -253,7 +253,6 @@ main {
   }
 
   .profile-li {
-    flex-grow: 0; /* 每個 profile-li 不會佔據多餘空間 */
     flex-basis: 100%; /* 每個 profile-li 佔據整行的寬度 */
     box-sizing: border-box;
   }
@@ -267,4 +266,5 @@ main {
     justify-content: center; /* 水平置中 */
     align-items: center; /* 垂直置中 */
     height: 20px; /* 填滿父元素的高度 */
+  }
 }
